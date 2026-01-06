@@ -13,17 +13,18 @@ A macOS-like boot screen theme for Plymouth
 3. Run the command below.
         
         $ sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/plymouth-mac/plymouth-mac.plymouth 100
-3.1 arch linux version
-        
-        or run  $ sudo plymouth-set-default-theme
+
+4. arch linux version.
+
+        $ sudo plymouth-set-default-theme
 
         
-4. And then run:
+5. And then run:
         
         $ sudo update-alternatives --config default.plymouth
         
    to choose and set the default theme.
 
-5. Finally, run:
+6. Finally, run:
         
         $ sudo update-initramfs -u
